@@ -1,0 +1,110 @@
+:root 
+    {--bg-dark: #121212;
+    --accent-gold: #d4af37;
+    --text-white: #ffffff;
+    --text-gray: #b0b0b0;
+    --card-bg: #1e1e1e;}
+
+*   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;} 
+
+body 
+   {background-color: var(--bg-dark);
+    color: var(--text-white);
+    line-height: 1.6;}
+
+nav 
+    {background: #000;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;}
+
+.logo 
+    {display: flex;
+    align-items: center;
+    color: var(--accent-gold);
+    font-weight: bold;
+    font-size: 1.5rem;}
+
+.logo-image img 
+    {height: 35px;
+    margin-right: 10px;
+}
+
+.nav-links a 
+    {color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.9rem;}
+
+#home 
+    {height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('../studio.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+
+#home h1 { font-size: 3rem; margin-bottom: 8px; }
+#home p { color: var(--accent-gold); letter-spacing: 2px; margin-bottom: 10px; }
+
+section { padding: 5rem 10%; text-align: center; }
+h2 { color: var(--accent-gold); font-size: 2rem; margin-bottom: 3rem; }
+
+.services-grid 
+    {display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;}
+
+.service-card 
+    {background: var(--card-bg);
+    padding: 2rem;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 5px;}
+
+#about { background: #1a1a1a; }
+.about-text { max-width: 800px; margin:100px; color: var(--text-gray); }
+
+.testimonial-item 
+    {background: var(--bg-dark);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--accent-gold);
+    text-align: center;}
+
+form 
+    {max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;}
+
+input, select 
+    {padding: 12px;
+    background: #333;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;}
+
+.btn 
+    {background: var(--accent-gold);
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;}
+
+footer { padding: 1.5rem; text-align: center; color: var(--text-gray); font-size: 0.8rem; }
