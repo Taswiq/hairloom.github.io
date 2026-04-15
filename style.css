@@ -46,7 +46,8 @@ nav
 
 #home 
     {height: 100vh;
-    background: <img src ='studio.jpg'> center/cover no-repeat;
+    background: linear-gradient(rgba(62, 37, 34, 0.5), rgba(62, 37, 34, 0.7)),
+                <img src ='studio.jpg'> center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
