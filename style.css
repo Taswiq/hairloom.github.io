@@ -46,7 +46,7 @@ nav
 
 #home 
     {height: 100vh;
-    background: img scr = "studio.jpg",
+    background: studio.jpg
     display: flex;
     flex-direction: column;
     justify-content: center;
