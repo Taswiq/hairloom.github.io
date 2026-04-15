@@ -46,7 +46,7 @@ nav
 
 #home 
     {height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))
                 url('studio.jpg');
     background-attachment: fixed;
     display: flex;
