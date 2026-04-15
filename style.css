@@ -52,7 +52,7 @@ nav
     align-items: center;
     text-align: center;
 
-    background-color: red !important;
+    background-image: url('studio.jpg');
 
     background-size: cover;
     background-position: center;
