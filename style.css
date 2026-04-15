@@ -44,16 +44,22 @@ nav
     margin-left: 20px;
     font-size: 0.9rem;}
 
-#home 
-    {height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))
-                url('studio.jpg');
-    background-attachment: fixed;
+#home {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;}
+    text-align: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                      url('../studio.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;}
 
 #home h1 { font-size: 3rem; margin-bottom: 8px; }
 #home p { color: var(--accent-gold); letter-spacing: 2px; margin-bottom: 10px; }
