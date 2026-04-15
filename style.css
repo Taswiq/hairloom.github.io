@@ -53,7 +53,7 @@ nav
     align-items: center;
     text-align: center;}
 
-#home h1 { font-size: 3rem; margin-bottom: 8px; }
+#home h1 { font-size: 3rem; margin-bottom: 6px; }
 #home p { color: var(--accent-gold); letter-spacing: 2px; margin-bottom: 10px; }
 
 section { padding: 5rem 10%; text-align: center; }
